@@ -5,4 +5,4 @@ It is important to explain the difference between a multi-class classification p
 
 For metric we'r going to use is binary_crossentropy instead of categorical_crossentropy.
 
-In this example, BiGRU+BiLSTM gave me a good performance than others.
+In this example, BiGRU+BiLSTM gave me a good performance than others. (used GPU to boost training)
