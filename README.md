@@ -5,8 +5,14 @@ It is important to explain the difference between a multi-class classification p
 
 For metric we'r going to use is binary_crossentropy instead of categorical_crossentropy.
 
+<B>BiGRU+BiLSTM</B>
+
 In this example, BiGRU+BiLSTM gave me a good performance than others. (used GPU to boost training)
 
 <B>Text Classification Using Hierarchical Attention Network (HAN) :</B>
 
 I have taken reference from this research paper <B>Hierarchical Attention Networks for Document Classification</B>. It can be a great guide for Document Classification using HAN.  The pre-trained embedding we’ll be using is Fasttext.
+
+
+<B>Hpyer parameter tuning</B>
+Verfied Grid search and BayesianOptimization.
